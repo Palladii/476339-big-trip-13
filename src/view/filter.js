@@ -1,4 +1,4 @@
-function createFilterTemplate() {
+const createFilterTemplate = () => {
   return `<form class="trip-filters" action="#" method="get">
       <div class="trip-filters__filter">
         <input
@@ -29,7 +29,7 @@ function createFilterTemplate() {
       </div>
       <button class="visually-hidden" type="submit">Accept filter</button>
     </form>`;
-}
+};
 
 export {
   createFilterTemplate
